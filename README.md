@@ -1,3 +1,6 @@
-#Replay Attack Detection
+# Replay Attack Detection
+## Overview
 This project focuses on enhancing the security of biometric systems utilizing voice recognition by detecting and preventing replay attacks.
-Replay attacks occur when a malicious actor attempts to bypass authentication by playing a pre-recorded voice sample. This project implements advanced techniques to identify and mitigate such threats, ensuring the integrity and reliability of voice-based biometric systems.
+## Key Features
+- **Replay attack detection:** Identifies pre-recorded voice samples.
+- **Enhanced security:** Strengthens voice biometric systems against spoofing.
