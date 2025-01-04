@@ -11,4 +11,5 @@ def record_audio_to_bytes(duration=5, samplerate=44100, channels=1):
     byte_buffer.write(audio.tobytes())
     # retrieves the in-memory byte buffer as byte object
     audio_bytes = byte_buffer.getvalue()
+    # we could have used file for storage but the long term plan for database integration made it seem reasonable to go for byte object so as to have complete ease while storing it to db
     return audio_bytes, samplerate
