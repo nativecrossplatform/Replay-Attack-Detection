@@ -1,6 +1,3 @@
-# Replay Attack Detection
-## Overview
-This project focuses on enhancing the security of biometric systems utilizing voice recognition by detecting and preventing replay attacks.
-## Key Features
-- **Replay attack detection:** Identifies pre-recorded voice samples.
-- **Enhanced security:** Strengthens voice biometric systems against spoofing.
+# Real or Recorded?
+
+Replay Attack Recognition System is built to address a pivotal challenge in biometric authentication: distinguishing between genuine inputs and replayed recordings. It focuses on analyzing the characteristics of the input signal to identify subtle differences that distinguish live biometric data from recordings. By enhancing the ability to detect replay attacks, this system plays a crucial role in maintaining the security and reliability of voice-based authentication systems, ensuring that only legitimate users can access protected resources.
